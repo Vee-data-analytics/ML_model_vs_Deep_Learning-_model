@@ -27,7 +27,7 @@ rf_strain_torque = RandomForestRegressor(n_estimators=100, random_state=42)
 
 # Fit the models to the training data
 rf_strain_axial.fit(X_train, y_train_strain_axial)
-rf_strain_torque fit(X_train, y_train_strain_torque)
+rf_strain_torque.fit(X_train, y_train_strain_torque)
 
 Making Predictions
 
@@ -87,8 +87,6 @@ In this analysis, deep learning models are applied to predict Strain Torque and 
 
 Please ensure you have the necessary libraries and data before running this analysis.
 
-css
+This Markdown file now includes both the Random Forest Regression analysis and the Deep Learning Regression analysis in one document. You can save this content to a .md file for documentation and sharing.
 
-
-This Markdown file now includes both the Random Forest Regression analysis and the Deep Learning Regression analysis in one document. You can save this content to a `.md` file for documentation and sharing.
 
